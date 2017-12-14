@@ -4,7 +4,9 @@
 [![Latest Stable Version](https://poser.pugx.org/wpfulcrum/template/v/stable)](https://packagist.org/packages/wpfulcrum/template) 
 [![License](https://poser.pugx.org/wpfulcrum/template/license)](https://packagist.org/packages/wpfulcrum/template)
 
-The Fulcrum Custom Template Module empowers your plugin to load templates.  This is handy when your plugin creates custom post types, taxonomies, or theme templates.
+**Empowering your WordPress plugin to load templates.**
+
+Does your plugin create a custom post type or taxonomy? Or maybe you want to add a page template into the page's template selector?  The Fulcrum Template Module makes it easy for you.
 
 ## Features
 

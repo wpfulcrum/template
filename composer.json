@@ -45,6 +45,6 @@
     "prefer-stable": true,
     "scripts": {
         "phpcs": "\"vendor/bin/phpcs\"",
-        "test-integration": "\"vendor/bin/phpunit\" --testsuite integration --configuration tests/integration/phpunit.xml.dist"
+        "test-integration": "\"vendor/bin/phpunit\" --testsuite integration --configuration tests/Integration/phpunit.xml.dist"
     }
 }

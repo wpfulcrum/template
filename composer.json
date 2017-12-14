@@ -1,0 +1,50 @@
+{
+    "name": "wpfulcrum/template",
+    "description": "Fulcrum Template Module - empowering your plugin to load templates.",
+    "type": "library",
+    "keywords": ["wordpress"],
+    "homepage": "https://github.com/wpfulcrum/template",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/wpfulcrum/template/issues",
+        "source": "https://github.com/wpfulcrum/template"
+    },
+    "authors": [
+        {
+            "name": "Tonya Mork",
+            "email": "hello@hellofromtonya.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fulcrum\\Custom\\Template\\": "src/Custom/Template/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fulcrum\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^5.6|^7",
+        "wpfulcrum/config": "^3",
+        "wpfulcrum/extender": "^3",
+        "wpfulcrum/foundation": "^3"
+    },
+    "require-dev": {
+        "brain/monkey": "^2.0",
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.8|~5.7.9",
+        "squizlabs/php_codesniffer": "^3.0",
+        "sensiolabs/security-checker": "^4.0"
+    },
+    "config": {
+        "sort-order": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "scripts": {
+        "phpcs": "\"vendor/bin/phpcs\"",
+        "test-integration": "\"vendor/bin/phpunit\" --testsuite integration --configuration tests/integration/phpunit.xml.dist"
+    }
+}
